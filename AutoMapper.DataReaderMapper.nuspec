@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+   <metadata>
+      <id>$id$</id>
+      <version>$version$</version>
+      <title>$title$</title>
+      <authors>aygjiay</authors>
+      <owners>aygjiay</owners>
+      <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>-->
+      <!--<projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>-->
+      <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>The missing component for AutoMapper version 4.2.1 that allows to Map IDataReader to IEnumerable</description>
+      <releaseNotes>Support for IDataReader to IEnumerable.</releaseNotes>
+      <copyright>Copyright 2016</copyright>
+      <tags>AutoMapper DataReader Map IEnumerable</tags>
+      <dependencies>
+         <group targetFramework=".NETFramework4.5">
+            <dependency id="AutoMapper" version="[4.2.1]" />
+         </group>
+      </dependencies>
+   </metadata>
+</package>
